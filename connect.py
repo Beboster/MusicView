@@ -22,7 +22,7 @@ def get_top(track_name,artist_name):
     # Convert the playlists result to JSON format
     playlists_json = json.dumps(playlists, indent=4)
  
-    if artist_name == " ":
+    if artist_name == '':
         query = track_name
     elif track_name == '':
         query = artist_name

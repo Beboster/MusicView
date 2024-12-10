@@ -68,8 +68,6 @@ function App() {
             />
             <button onClick={handleSearch}>Search</button>
 
-            <h2>Send Data to Python</h2>
-            <button onClick={sendData}>Send Data</button>
 
             <h3>Search Results</h3>
             {data ? (
